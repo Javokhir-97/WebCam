@@ -46,3 +46,17 @@ video {
   background: rgba(0, 118, 255, 0.9);
   box-shadow: 0 6px 20px rgb(0 118 255 / 23%);
 }
+
+.photos-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.photos-container img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+}
